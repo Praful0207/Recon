@@ -6,4 +6,4 @@ services:
     branch: main
     buildCommand: npm install
     startCommand: npm start
-    autoDeploy: true
+    autoDeploy: true:
