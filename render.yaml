@@ -4,6 +4,6 @@ services:
     env: node
     plan: free
     branch: main
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: "npm install"
+    startCommand: "npm start"
     autoDeploy: true
