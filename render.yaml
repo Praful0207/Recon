@@ -2,6 +2,11 @@ services:
   - type: web
     name: forensic-face-sketch
     env: node
+    buildCommand: npm install && npm run build
+    startCommand: npx serve -s build
+    envVars:
+      - key: NODE_VERSION
+        value: 18
     plan: free
     branch: main
     buildCommand: "npm install"
